@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ /* following style will be applied to every element */
+ *, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ .pagewrap{
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+ }
+ main{
+     flex-grow: 1;
+     background-color: #2A085B;
+ }
+
+ /******css variables********/
+:root{
+    --primary: #FCDCA2;
+    --dark:#b30000;
+    --violet:#2A085B;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation{
+    background-color: var(--primary);
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+/***********containers**************/
+.container-fluid{
+    
+    position: relative;
+    padding: 1rem;
+}
+
+.container{
+    max-width: 850px;
+    margin: auto;
+    padding:  2rem;
+}
+
+.translator{
+    /* background-color: var(--primary); */
+    border: 5px solid var(--primary);
+    max-width: 500px;
+    height: auto; 
+    padding: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/******input and output *************/
+#txt-input, #output{
+    border: none;
+    width: 85%;
+    height: 20vh;
+    font-size: 1.2rem;
+    background-color: white;
+    margin: auto;
+}
+.pholder{
+    margin: auto;
+    color: #ccc;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+#btn-input{
+    width: 80%;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 5px solid var(--primary);
+    color: var(--primary);
+    border-radius: 8px;
+    background-color: var(--violet);
+}
+
+#btn-input:hover{
+    background-color: var(--primary);
+    border: none;
+    color: var(--violet);
+    padding: 8px;
+    font-size: 18px;
+}
+
+
+/*********footer*********/
+.footer-content{
+    background-color: var(--primary);
+    padding: 10px;
+}
+
+.footer-content a{
+    
+    color: var(--violet);
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}

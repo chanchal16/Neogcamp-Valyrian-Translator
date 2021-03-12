@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valyrian</title>
+    <link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>Valar Morghulis</h1>
+    <div class="pagewrap">
+        <!-- navigation bar -->
+        <nav class="navigation flex">
+            <a href="/index.html">
+                <span class="flex">
+                    <img src="/images/shield.png" alt="sword" style="height: 50px;">
+                    Valyrian Translator
+                    <img src="/images/shield.png" alt="sword" style="height: 50px;">
+                </span>   
+            </a>
+        </nav>
+    
+        <main>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="translator flex">
+                        <textarea id="txt-input" placeholder="Enter the text to translate"></textarea>
+                        <button id="btn-input">Translate</button>
+                        <div id="output">
+                            <div class="pholder">Translated text appears here</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content center">
+                &lt;/&gt; by <a href="https://chanchalrajput.netlify.app/" target="_blank" class="">
+                    Chanchal Rajput</a> 
+            </div>
+        </footer>
+    </div>
+   
 </body>
 </html>
