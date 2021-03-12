@@ -61,6 +61,7 @@ nav a{
 .translator{
     /* background-color: var(--primary); */
     border: 5px solid var(--primary);
+    border-radius: 10px;
     max-width: 500px;
     height: auto; 
     padding: 20px;
