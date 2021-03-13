@@ -30,6 +30,7 @@ body{
 
 .navigation{
     background-color: var(--primary);
+    color: #490E9F;
 }
 
 .flex{
