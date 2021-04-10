@@ -122,3 +122,29 @@ nav a{
 .center{
     text-align: center;
 }
+
+/*****media queries******/
+@media (max-width:440px){
+
+    .container-fluid{
+        margin: 5rem 0;
+    }
+
+    .pholder{
+        font-size: medium;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    .translator{
+        width: 80%;
+        height: auto;
+    }
+    .container-fluid{
+        margin: 11rem 0;
+    }
+    #text-input{
+        height: 10vh !important;
+    }
+}
